@@ -1,0 +1,14 @@
+trigger: 
+ - Master
+
+pool: 
+  name: Default
+
+variables: 
+  name: Mohammed Siddiq
+
+steps:
+  - task: CmdLine@2
+    inputs:
+      script: |
+        echo $(name)
