@@ -1,0 +1,34 @@
+<project ServerProjectName="">
+  <watches>
+    <watch>result</watch>
+    <watch>number1</watch>
+    <watch>numberr2</watch>
+  </watches>
+  <collapsedNodes></collapsedNodes>
+  <actions/>
+  <propertysets/>
+  <variables/>
+  <properties>
+    <Author></Author>
+    <Notes>
+      <![CDATA[]]>
+    </Notes>
+    <LastBuildRun>00:00:00</LastBuildRun>
+    <LastBuildStart>06-04-2023 12:46:51</LastBuildStart>
+    <LastBuildState>True</LastBuildState>
+    <builds>
+      <build>
+        <id>{4AD57749-5437-4D96-874F-B9F72131636E}</id>
+        <start>06-04-2023 12:46:17</start>
+        <run>00:00:00</run>
+        <result>True</result>
+      </build>
+      <build>
+        <id>{83F3D423-F710-468C-989E-3D0C4E87CBF5}</id>
+        <start>06-04-2023 12:46:51</start>
+        <run>00:00:00</run>
+        <result>True</result>
+      </build>
+    </builds>
+  </properties>
+</project>

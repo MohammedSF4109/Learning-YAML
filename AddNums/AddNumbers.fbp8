@@ -1,0 +1,64 @@
+﻿project
+begin
+  projectid = {B4006F6D-E244-4681-A875-1E561AA1D979}
+  target
+  begin
+    name = Default
+    targetid = {E1028AAA-166C-4E81-BE4D-11C33EFBDAF5}
+    rootaction
+    begin
+      action.variable.set
+      begin
+        applytoexisting = false
+        doexpandexpression = true
+        forcetype = ftDefault
+        id = {62A7BB5A-4C8D-40F7-B099-7B9DBC5297B7}
+        modifier = smNone
+        newvalue = 6
+        variablename = number1
+      end
+      action.variable.set
+      begin
+        applytoexisting = false
+        doexpandexpression = true
+        forcetype = ftDefault
+        id = {E6AAB5CA-5488-4877-BA89-C0B035257DAD}
+        modifier = smNone
+        newvalue = 6
+        variablename = numberr2
+      end
+      action.simple.math
+      begin
+        actiontypeid = {2F5BF3E8-963A-43A8-B986-86554CC91980}
+        customactionname = "Simple Maths"
+        enabletimeout = false
+        id = {210A5B5F-913A-43DE-98CD-F1BE7B0C8BC1}
+        impersonateusenetcredonly = false
+        impersonateuser = false
+        terminateontimeout = true
+        timeoutlength = 2
+        as.value1variable = number1
+        as.value2variable = numberr2
+        as.usevalue2variable = True
+        as.outputtovariable1 = False
+        as.outputtovariable = result
+        as.operation = 0
+      end
+    end
+  end
+  variable
+  begin
+    name = number1
+    variablescope = vtProject
+  end
+  variable
+  begin
+    name = numberr2
+    variablescope = vtProject
+  end
+  variable
+  begin
+    name = result
+    variablescope = vtProject
+  end
+end
