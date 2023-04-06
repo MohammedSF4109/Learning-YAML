@@ -1,0 +1,78 @@
+<project ServerProjectName="">
+  <watches/>
+  <collapsedNodes></collapsedNodes>
+  <actions/>
+  <propertysets/>
+  <variables/>
+  <properties>
+    <Author></Author>
+    <Notes>
+      <![CDATA[]]>
+    </Notes>
+    <LastBuildRun>00:00:00</LastBuildRun>
+    <LastBuildStart>08-02-2023 09:43:00</LastBuildStart>
+    <LastBuildState>True</LastBuildState>
+    <builds>
+      <build>
+        <id>{0223753F-87C1-4CFB-805B-B39B32EAFA8C}</id>
+        <start>07-02-2023 15:03:58</start>
+        <run>00:00:00</run>
+        <result>True</result>
+      </build>
+      <build>
+        <id>{1C1212B6-CE78-4EC1-958A-8B073C970274}</id>
+        <start>07-02-2023 15:06:43</start>
+        <run>00:00:00</run>
+        <result>True</result>
+      </build>
+      <build>
+        <id>{A4B29553-6BDE-432E-89D9-804F6E862C94}</id>
+        <start>07-02-2023 15:13:50</start>
+        <run>00:00:00</run>
+        <result>False</result>
+      </build>
+      <build>
+        <id>{D25C6FF4-2BA5-46A0-8711-0BD035C73F9E}</id>
+        <start>07-02-2023 15:29:18</start>
+        <run>00:00:00</run>
+        <result>False</result>
+      </build>
+      <build>
+        <id>{D4A7676B-9458-460E-8C9F-6E64A4DA12C9}</id>
+        <start>07-02-2023 15:51:21</start>
+        <run>00:00:00</run>
+        <result>False</result>
+      </build>
+      <build>
+        <id>{A8ED559C-3C59-40D6-BEF6-08EDE02F1278}</id>
+        <start>07-02-2023 15:51:23</start>
+        <run>00:00:00</run>
+        <result>False</result>
+      </build>
+      <build>
+        <id>{776B42FA-D8D2-4A46-B004-4E8D9A0B931C}</id>
+        <start>07-02-2023 16:38:39</start>
+        <run>00:00:00</run>
+        <result>False</result>
+      </build>
+      <build>
+        <id>{174BC2E2-A199-410C-B33E-5E839067F54E}</id>
+        <start>07-02-2023 16:38:50</start>
+        <run>00:00:00</run>
+        <result>True</result>
+      </build>
+      <build>
+        <id>{384AF779-7038-42AC-8BC1-430D20CB83C7}</id>
+        <start>07-02-2023 16:43:07</start>
+        <run>00:00:00</run>
+        <result>True</result>
+      </build>
+      <build>
+        <id>{EA24B541-9F69-4907-98E4-DAD7735CAE07}</id>
+        <start>08-02-2023 09:43:00</start>
+        <run>00:00:00</run>
+        <result>True</result>
+      </build>
+    </builds>
+  </properties>
+</project>

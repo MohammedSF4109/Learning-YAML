@@ -1,0 +1,35 @@
+﻿project
+begin
+  projectid = {605C0345-AC43-40A3-8336-572EE859D9BE}
+  target
+  begin
+    name = Default
+    targetid = {A1BB9248-18DD-47B2-AE97-157E13C56833}
+    rootaction
+    begin
+      action.text.findreplace
+      begin
+        casesensitive = true
+        expandvarswhenreplacing = true
+        failmatchcount = 1
+        failonmorematchcount = 1
+        filesetcountallmatches = false
+        id = {6DE9F847-484A-4B0A-A32D-B84A6BCFCA55}
+        matchregexpr = true
+        matchtype = mtAll
+        matchwildcards = false
+        replacementmode = trOriginalFile
+        replacementtext = D:/Work/SVN
+        searchstring = \\W[P][A-Z]{3}\\W
+        sourcepath = %FBPROJECTDIR%\\WPF_Utilities.xml
+        substitute = false
+        textfindbehaviour = tfDontFail
+        usefileset = false
+        usevariable = false
+        wholelinesonly = false
+        wholewords = false
+        writebom = true
+      end
+    end
+  end
+end
