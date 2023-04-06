@@ -1,0 +1,49 @@
+Build Automation
+************************
+/o /n /r /e /v"AutomationType={AutomationType};BuildType=Complete;IsScheduler=True;VolumeName={Volume Name};IsLicensed={LicenseType}" "{FB location}"
+
+Example:
+/o /n /r /e /v"AutomationType=Build;BuildType=Complete;IsScheduler=True;VolumeName=Latest Volume;IsLicensed=True" "D:\Work\Tools\Automation\17.1.0.38\Essential Studio\EssentialStudio\BuildAutomation_UWP.fbz7"
+
+
+Nuget Automation
+************************
+/o /n /r /e /v"AutomationType={AutomationType};BuildType=Complete;IsScheduler=True;VolumeName={Volume Name};IsLicensed={LicenseType}" "{FB location}"
+
+Example:
+/o /n /r /e /v"AutomationType=Nuget;BuildType=Complete;IsScheduler=True;VolumeName=Nuget Release;IsLicensed=True" "D:\Work\Tools\Automation\17.1.0.38\Essential Studio\EssentialStudio\BuildAutomation_UWP.fbz7"
+
+
+Source Automation
+*************************
+/o /n /r /e /vPlatformType={PlatformType};BuildType=Complete;IsScheduler=True;AutomationType={AutomationType};islicensed={LicenseType} "{FB Location}"
+
+Example:
+/o /n /r /e /vPlatformType=UWP;BuildType=Complete;IsScheduler=True;AutomationType=SourceAutomation;islicensed=True "D:\Work\Tools\Automation\17.1.0.38\Essential Studio\EssentialStudio\BuildAutomation_UWP.fbz7"
+
+
+StartBuild tool
+*************************
+/volumename:"{Volume Name}" /studiotypename:EssentialStudio /serverid:{ServerId}
+
+Example:/volumename:"Latest Volume" /studiotypename:EssentialStudio /serverid:5
+
+
+Arguments
+***************
+AutomationType - Automation type will be Build or Nuget or SourceAutomation
+
+VolumeName - Volume Name will be Release Volume or Latest Volume or Nuget Release
+Note: Don't use the display name
+
+LicenseType - License type will be either true or false. if true, it is trial build. If false, it is license build
+
+ServerId - Specify the server id of that machine
+
+FB Location - Specify the final builder location of the corresponding platform
+
+PlatformType - Specify the platform type like UWP, Xamarin, WPF etc...
+
+BuildType - BuildType will be complete or Repack
+
+
